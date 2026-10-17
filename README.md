@@ -132,14 +132,36 @@ Perubahan akan langsung tercermin secara otomatis di seluruh halaman website tan
 
 Karena situs ini murni frontend statis, Anda dapat melakukan deployment ke penyedia hosting mana pun:
 
-### A. Vercel / Netlify / Cloudflare Pages
-1. Unggah kode ke repositori GitHub.
-2. Hubungkan repositori ke akun Vercel/Netlify Anda.
-3. Tetapkan build command: `npm run build` (atau kosongkan untuk static files).
-4. Tetapkan output directory: `dist` (jika menggunakan npm run build) atau root directory.
-5. Klik **Deploy**.
+### A. Panduan Khusus Deployment ke Vercel (Rekomendasi)
 
-### B. Hosting cPanel Tradisional
+Proyek ini sudah dilengkapi dengan konfigurasi siap pakai `vercel.json` dan bundling otomatis Vite:
+
+1. **Deploy via GitHub / Vercel Dashboard:**
+   - Unggah repository proyek ini ke akun GitHub / GitLab / Bitbucket Anda.
+   - Buka [dashboard.vercel.com](https://vercel.com/dashboard) lalu klik **"Add New..." > "Project"**.
+   - Pilih repository proyek Anda.
+   - Vercel akan otomatis mengenali preset:
+     - **Framework Preset:** Vite
+     - **Build Command:** `npm run build`
+     - **Output Directory:** `dist`
+     - **Install Command:** `npm install`
+   - Klik **Deploy**. Selesai dalam hitungan detik!
+
+2. **Deploy via Vercel CLI (Command Line):**
+   ```bash
+   npm i -g vercel
+   vercel
+   ```
+   Ikuti petunjuk di terminal (pilih default settings).
+
+3. **Keunggulan Konfigurasi Vercel yang Sudah Disediakan (`vercel.json`):**
+   - **Clean URLs (`cleanUrls: true`):** Pengunjung dapat mengakses rute rapi tanpa ekstensi `.html` (misal: `/profil`, `/guru`, `/kelas`, `/ppdb`, `/kontak`).
+   - **404 Handling Otomatis:** Permintaan halaman yang tidak ditemukan langsung diarahkan ke `dist/404.html`.
+   - **Asset Caching:** Seluruh aset di folder `dist/assets/` diberi header `Cache-Control` immutable 1 tahun untuk kecepatan loading maksimal.
+   - **Security Headers:** Dilengkapi header `X-Content-Type-Options: nosniff`, `X-Frame-Options: SAMEORIGIN`, dan proteksi XSS.
+   - **Aset SEO:** File `robots.txt`, `sitemap.xml`, dan `favicon.svg` otomatis terbit di root domain (`https://domain-anda.vercel.app/robots.txt`).
+
+### B. Hosting Lainnya (Netlify / Cloudflare Pages / cPanel)
 1. Kompres semua file dan folder (termasuk `index.html`, `assets/`, dll.) menjadi format `.zip`.
 2. Masuk ke **File Manager** cPanel hosting Anda.
 3. Unggah ke dalam direktori `public_html/`.

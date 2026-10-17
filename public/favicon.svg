@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1D4ED8"/>
+      <stop offset="100%" stop-color="#102A43"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCD34D"/>
+      <stop offset="100%" stop-color="#D6A84F"/>
+    </linearGradient>
+  </defs>
+  <!-- Outer Shield -->
+  <path d="M32 4 L56 12 C56 36 46 52 32 60 C18 52 8 36 8 12 Z" fill="url(#shieldGrad)" stroke="#D6A84F" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- Inner Rim -->
+  <path d="M32 8 L52 15 C52 34 43 48 32 55 C21 48 12 34 12 15 Z" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="1.5"/>
+  <!-- Open Book -->
+  <path d="M32 37 C26 34 19 35 16 37 L16 25 C19 23 26 22 32 25 C38 22 45 23 48 25 L48 37 C45 35 38 34 32 37 Z" fill="#FFFFFF" opacity="0.95"/>
+  <path d="M32 25 L32 37" stroke="#102A43" stroke-width="1.5"/>
+  <!-- Torch / Flame -->
+  <path d="M32 14 C34 17 37 19 35 22 C33 24 31 24 29 22 C27 19 30 17 32 14 Z" fill="url(#goldGrad)"/>
+  <!-- Star on Top -->
+  <polygon points="32,8 33.5,11.5 37,11.5 34,13.5 35,17 32,15 29,17 30,13.5 27,11.5 30.5,11.5" fill="url(#goldGrad)"/>
+  <!-- Number 6 Emblem Text -->
+  <text x="32" y="49" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="11" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">SMP 6</text>
+</svg>
