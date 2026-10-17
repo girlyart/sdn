@@ -26,12 +26,9 @@
   display: none !important;
 }
 
-/* Topbar */
+/* Topbar (Removed / Hidden) */
 .topbar {
-  background-color: var(--color-navy);
-  color: #CBD5E1;
-  font-size: var(--text-xs);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  display: none !important;
 }
 
 .topbar-inner {
