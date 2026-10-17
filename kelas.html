@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Program & Tingkat Kelas — SMP Negeri 6 Jember</title>
+  <meta name="description" content="Struktur kurikulum, program pembelajaran, dan kegiatan siswa jenjang Kelas VII, VIII, dan IX di SMP Negeri 6 Jember." />
+  
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Program & Kelas SMP Negeri 6 Jember" />
+  <meta property="og:description" content="Kurikulum Merdeka terintegrasi untuk kelas VII, VIII, dan IX dengan pendekatan saintifik dan P5." />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1200&q=80" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="./assets/css/variables.css" />
+  <link rel="stylesheet" href="./assets/css/reset.css" />
+  <link rel="stylesheet" href="./assets/css/layout.css" />
+  <link rel="stylesheet" href="./assets/css/components.css" />
+  <link rel="stylesheet" href="./assets/css/pages.css" />
+  <link rel="stylesheet" href="./assets/css/responsive.css" />
+</head>
+<body>
+  <a href="#main-content" class="skip-to-content">Lewati ke konten utama</a>
+
+  <!-- Demo Disclaimer Alert Bar -->
+  <div class="demo-banner">
+    <span class="badge-pill">DATA DEMO</span>
+    <span>Situs ini adalah prototipe website profil sekolah interaktif. Seluruh data rombel merupakan data simulasi yang belum diverifikasi secara resmi.</span>
+  </div>
+
+  <!-- Topbar -->
+  <aside class="topbar" aria-label="Informasi Kontak Cepat">
+    <div class="container topbar-inner">
+      <div class="topbar-contacts">
+        <span class="topbar-item">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+          Jl. Pendidikan No. 123, Jember Selatan, Jawa Timur
+        </span>
+        <a href="mailto:info@smpn6jember.example" class="topbar-item">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+          info@smpn6jember.example
+        </a>
+      </div>
+      <div class="topbar-socials">
+        <a href="tel:0331555123" class="topbar-item">(0331) 555-123</a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Navbar -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">
+        <div class="brand-emblem"><img src="./favicon.svg" alt="Logo SMPN 6 Jember" width="44" height="44" /></div>
+        <div class="brand-text">
+          <span class="brand-title">SMPN 6 JEMBER</span>
+          <span class="brand-subtitle">CERDAS • BERBUDI • BERPRESTASI</span>
+        </div>
+      </a>
+
+      <nav class="main-nav" aria-label="Navigasi Utama">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="index.html" class="nav-link">Beranda</a></li>
+          <li class="nav-item"><a href="profil.html" class="nav-link">Profil Sekolah</a></li>
+          <li class="nav-item has-dropdown">
+            <a href="kelas.html" class="nav-link active">
+              Akademik
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </a>
+            <div class="dropdown-menu">
+              <a href="kelas.html" class="dropdown-link active">Program & Kelas</a>
+              <a href="guru.html" class="dropdown-link">Direktori Guru</a>
+              <a href="fasilitas.html" class="dropdown-link">Fasilitas Sekolah</a>
+            </div>
+          </li>
+          <li class="nav-item has-dropdown">
+            <a href="prestasi.html" class="nav-link">
+              Kesiswaan
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </a>
+            <div class="dropdown-menu">
+              <a href="prestasi.html" class="dropdown-link">Prestasi Siswa</a>
+              <a href="ekstrakurikuler.html" class="dropdown-link">Ekstrakurikuler</a>
+              <a href="agenda.html" class="dropdown-link">Agenda Kegiatan</a>
+            </div>
+          </li>
+          <li class="nav-item"><a href="galeri.html" class="nav-link">Galeri</a></li>
+          <li class="nav-item"><a href="berita.html" class="nav-link">Berita</a></li>
+          <li class="nav-item"><a href="kontak.html" class="nav-link">Kontak</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="ppdb.html" class="btn btn-gold btn-sm">Info PPDB</a>
+        <button class="mobile-menu-toggle" aria-label="Buka Menu" aria-expanded="false">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-drawer-overlay"></div>
+  <div class="mobile-drawer" role="dialog" aria-modal="true">
+    <div class="drawer-header">
+      <div class="brand">
+        <img src="./favicon.svg" alt="Logo" width="34" height="34" />
+        <span class="brand-title" style="font-size:1rem;">SMPN 6 Jember</span>
+      </div>
+      <button class="drawer-close" aria-label="Tutup Menu">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+    </div>
+    <div class="drawer-nav">
+      <ul class="drawer-list">
+        <li><a href="index.html" class="drawer-link">Beranda</a></li>
+        <li><a href="profil.html" class="drawer-link">Profil Sekolah</a></li>
+        <li><a href="kelas.html" class="drawer-link active">Program & Kelas</a></li>
+        <li><a href="guru.html" class="drawer-link">Direktori Guru</a></li>
+        <li><a href="fasilitas.html" class="drawer-link">Fasilitas Sekolah</a></li>
+        <li><a href="prestasi.html" class="drawer-link">Prestasi Siswa</a></li>
+        <li><a href="ekstrakurikuler.html" class="drawer-link">Ekstrakurikuler</a></li>
+        <li><a href="agenda.html" class="drawer-link">Agenda Kegiatan</a></li>
+        <li><a href="galeri.html" class="drawer-link">Galeri Foto</a></li>
+        <li><a href="berita.html" class="drawer-link">Berita & Artikel</a></li>
+        <li><a href="kontak.html" class="drawer-link">Kontak & Lokasi</a></li>
+      </ul>
+    </div>
+    <div class="drawer-footer">
+      <a href="ppdb.html" class="btn btn-primary" style="width:100%;">Pendaftaran PPDB</a>
+    </div>
+  </div>
+
+  <main id="main-content">
+    <section class="page-header">
+      <div class="container">
+        <nav class="breadcrumb" aria-label="Jejak Navigasi">
+          <a href="index.html">Beranda</a>
+          <span class="breadcrumb-separator">/</span>
+          <span class="breadcrumb-separator">Akademik</span>
+          <span class="breadcrumb-separator">/</span>
+          <span class="breadcrumb-current">Program & Kelas</span>
+        </nav>
+        <h1 class="page-header-title">Program Pembelajaran & Tingkat Kelas</h1>
+        <p class="page-header-desc">
+          Implementasi Kurikulum Merdeka Fase D yang dirancang holistik, memberdayakan minat, mengasah literasi-numerasi, dan melatih kemandirian peserta didik.
+        </p>
+      </div>
+    </section>
+
+    <!-- Ringkasan Kurikulum Merdeka -->
+    <section class="section section-white">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">STRATEGI PEMBELAJARAN</span>
+          <h2 class="section-title">Pendekatan Kurikulum Merdeka di SMPN 6</h2>
+          <p class="section-subtitle">
+            Pembelajaran berdiferensiasi yang menghargai keberagaman cara belajar siswa dengan asesmen diagnostik berkala.
+          </p>
+        </div>
+
+        <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-bottom: 4rem;">
+          <div class="card" style="padding:2rem;">
+            <div style="width:48px; height:48px; border-radius:var(--radius-md); background:var(--color-blue-subtle); color:var(--color-primary); display:flex; align-items:center; justify-content:center; margin-bottom:1.25rem;">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+            </div>
+            <h3 class="card-title">Intrakurikuler Berdiferensiasi</h3>
+            <p class="card-desc">Guru memetakan kesiapan dan gaya belajar siswa (visual, auditori, kinestetik) guna menyajikan materi yang relevan, menantang, dan kontekstual.</p>
+          </div>
+
+          <div class="card" style="padding:2rem;">
+            <div style="width:48px; height:48px; border-radius:var(--radius-md); background:var(--color-gold-light); color:#B45309; display:flex; align-items:center; justify-content:center; margin-bottom:1.25rem;">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M8 14s1.5 2 4 2 4-2 4-2"></path><line x1="9" y1="9" x2="9.01" y2="9"></line><line x1="15" y1="9" x2="15.01" y2="9"></line></svg>
+            </div>
+            <h3 class="card-title">Projek Penguatan Karakter (P5)</h3>
+            <p class="card-desc">Alokasi 20-30% waktu belajar untuk proyek nyata lintas mata pelajaran dengan tema: Gaya Hidup Berkelanjutan, Kearifan Lokal, dan Suara Demokrasi.</p>
+          </div>
+
+          <div class="card" style="padding:2rem;">
+            <div style="width:48px; height:48px; border-radius:var(--radius-md); background:var(--color-success-light); color:var(--color-success); display:flex; align-items:center; justify-content:center; margin-bottom:1.25rem;">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline><polyline points="17 6 23 6 23 12"></polyline></svg>
+            </div>
+            <h3 class="card-title">Klinik Akademik & Remediasi</h3>
+            <p class="card-desc">Bimbingan belajar tambahan gratis setelah jam sekolah bagi siswa yang membutuhkan pendalaman konsep dasar matematika dan literasi bahasa.</p>
+          </div>
+        </div>
+
+        <!-- Filter Kelas -->
+        <div style="text-align:center; margin-bottom:2.5rem;">
+          <div class="filter-nav" style="justify-content:center;" id="class-filters">
+            <button class="filter-btn active" data-filter="all">Semua Tingkat Kelas</button>
+            <button class="filter-btn" data-filter="VII">Kelas VII (Fase D Awal)</button>
+            <button class="filter-btn" data-filter="VIII">Kelas VIII (Fase D Lanjutan)</button>
+            <button class="filter-btn" data-filter="IX">Kelas IX (Fase D Akhir)</button>
+          </div>
+        </div>
+
+        <!-- Rincian Jenjang Kelas -->
+        <div id="class-cards-container" style="display:flex; flex-direction:column; gap:3rem;">
+          <!-- Kelas VII -->
+          <div class="card class-row-item" data-class="VII" style="padding:0; overflow:hidden;">
+            <div style="display:grid; grid-template-columns: 420px 1fr; align-items:center;" class="class-grid-responsive">
+              <div style="height:100%; min-height:300px; background:#E2E8F0; position:relative;">
+                <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=800&q=80" alt="Kelas VII" style="width:100%; height:100%; object-fit:cover;" />
+                <span class="badge badge-blue" style="position:absolute; top:1rem; left:1rem;">Tingkat Awal</span>
+              </div>
+              <div style="padding:2.5rem;">
+                <div style="font-size:var(--text-xs); font-weight:700; color:var(--color-primary); text-transform:uppercase;">FASE D AWAL • 8 ROMBEL (VII-A s.d VII-H)</div>
+                <h3 style="font-size:1.75rem; font-weight:800; color:var(--color-navy); margin:0.35rem 0 0.75rem 0;">Kelas VII — Tahap Adaptasi & Pondasi Karakter</h3>
+                <p style="font-size:1rem; line-height:1.7; color:var(--color-text-muted); margin-bottom:1.5rem;">
+                  Menjembatani transisi pola belajar sekolah dasar menuju kemandirian berpikir tingkat menengah. Siswa dibimbing mengenali gaya belajar pribadi, adaptasi dengan guru mata pelajaran, serta menguatkan kebiasaan literasi membaca harian.
+                </p>
+                <div style="margin-bottom:1.5rem;">
+                  <strong style="font-size:var(--text-sm); color:var(--color-navy); display:block; margin-bottom:0.5rem;">Program Unggulan Kelas VII:</strong>
+                  <ul style="font-size:var(--text-sm); color:var(--color-text-muted); line-height:1.8;">
+                    <li><span style="color:var(--color-primary); font-weight:bold;">✓</span> MPLS Ramah Anak: Pengenalan budaya sekolah tanpa perpeloncoan</li>
+                    <li><span style="color:var(--color-primary); font-weight:bold;">✓</span> Asesmen Diagnostik Awal untuk pemetaan minat bakat ekstrakurikuler</li>
+                    <li><span style="color:var(--color-primary); font-weight:bold;">✓</span> Projek P5 Tema Gaya Hidup Berkelanjutan (Pengelolaan Bank Sampah)</li>
+                    <li><span style="color:var(--color-primary); font-weight:bold;">✓</span> Pengenalan Etika Digital & Dasar Pemrograman Visual</li>
+                  </ul>
+                </div>
+                <div style="display:flex; gap:1rem; align-items:center;">
+                  <span class="badge badge-demo">288 Siswa Aktif (Data Demo)</span>
+                  <a href="guru.html" class="btn btn-outline btn-sm">Lihat Wali Kelas</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Kelas VIII -->
+          <div class="card class-row-item" data-class="VIII" style="padding:0; overflow:hidden;">
+            <div style="display:grid; grid-template-columns: 420px 1fr; align-items:center;" class="class-grid-responsive">
+              <div style="height:100%; min-height:300px; background:#E2E8F0; position:relative;">
+                <img src="https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?auto=format&fit=crop&w=800&q=80" alt="Kelas VIII" style="width:100%; height:100%; object-fit:cover;" />
+                <span class="badge badge-gold" style="position:absolute; top:1rem; left:1rem;">Tingkat Menengah</span>
+              </div>
+              <div style="padding:2.5rem;">
+                <div style="font-size:var(--text-xs); font-weight:700; color:#B45309; text-transform:uppercase;">FASE D LANJUTAN • 8 ROMBEL (VIII-A s.d VIII-H)</div>
+                <h3 style="font-size:1.75rem; font-weight:800; color:var(--color-navy); margin:0.35rem 0 0.75rem 0;">Kelas VIII — Tahap Pendalaman, Riset & Kolaborasi</h3>
+                <p style="font-size:1rem; line-height:1.7; color:var(--color-text-muted); margin-bottom:1.5rem;">
+                  Mengembangkan daya nalar analitis melalui praktikum laboratorium terpadu, pemecahan masalah multidisiplin, kepemimpinan organisasi kesiswaan OSIS, serta mentoring kompetisi sains dan olahraga daerah.
+                </p>
+                <div style="margin-bottom:1.5rem;">
+                  <strong style="font-size:var(--text-sm); color:var(--color-navy); display:block; margin-bottom:0.5rem;">Program Unggulan Kelas VIII:</strong>
+                  <ul style="font-size:var(--text-sm); color:var(--color-text-muted); line-height:1.8;">
+                    <li><span style="color:var(--color-gold); font-weight:bold;">✓</span> Praktikum Biologi & Fisika Terpadu di Lab IPA setiap pekan</li>
+                    <li><span style="color:var(--color-gold); font-weight:bold;">✓</span> Projek P5 Tema Kearifan Lokal (Pelestarian Seni Tradisi Gandrung Jember)</li>
+                    <li><span style="color:var(--color-gold); font-weight:bold;">✓</span> Pelatihan Kepemimpinan Dasar Siswa (LDKS) dan Paskibra</li>
+                    <li><span style="color:var(--color-gold); font-weight:bold;">✓</span> Klinik Pembinaan Lomba OSN, O2SN, dan FLS2N</li>
+                  </ul>
+                </div>
+                <div style="display:flex; gap:1rem; align-items:center;">
+                  <span class="badge badge-demo">288 Siswa Aktif (Data Demo)</span>
+                  <a href="guru.html" class="btn btn-outline btn-sm">Lihat Wali Kelas</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Kelas IX -->
+          <div class="card class-row-item" data-class="IX" style="padding:0; overflow:hidden;">
+            <div style="display:grid; grid-template-columns: 420px 1fr; align-items:center;" class="class-grid-responsive">
+              <div style="height:100%; min-height:300px; background:#E2E8F0; position:relative;">
+                <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=800&q=80" alt="Kelas IX" style="width:100%; height:100%; object-fit:cover;" />
+                <span class="badge badge-green" style="position:absolute; top:1rem; left:1rem;">Tingkat Akhir</span>
+              </div>
+              <div style="padding:2.5rem;">
+                <div style="font-size:var(--text-xs); font-weight:700; color:var(--color-success); text-transform:uppercase;">FASE D AKHIR • 8 ROMBEL (IX-A s.d IX-H)</div>
+                <h3 style="font-size:1.75rem; font-weight:800; color:var(--color-navy); margin:0.35rem 0 0.75rem 0;">Kelas IX — Tahap Pemantapan & Sukses Lanjutan</h3>
+                <p style="font-size:1rem; line-height:1.7; color:var(--color-text-muted); margin-bottom:1.5rem;">
+                  Fokus pada pemantapan kompetensi komprehensif seluruh mata pelajaran, kesiapan asesmen standarisasi kelulusan, konsultasi karir peminatan SMA/SMK negeri unggulan, dan pameran karya akhir inovasi peserta didik.
+                </p>
+                <div style="margin-bottom:1.5rem;">
+                  <strong style="font-size:var(--text-sm); color:var(--color-navy); display:block; margin-bottom:0.5rem;">Program Unggulan Kelas IX:</strong>
+                  <ul style="font-size:var(--text-sm); color:var(--color-text-muted); line-height:1.8;">
+                    <li><span style="color:var(--color-success); font-weight:bold;">✓</span> Klinik Pemantapan Materi & Tryout Asesmen Komprehensif Berbasis CBT</li>
+                    <li><span style="color:var(--color-success); font-weight:bold;">✓</span> Konseling Bimbingan Karir Penjurusan SMA/SMK Negeri Favorit</li>
+                    <li><span style="color:var(--color-success); font-weight:bold;">✓</span> Pameran Gelar Karya Akhir (Science & Innovation Fair)</li>
+                    <li><span style="color:var(--color-success); font-weight:bold;">✓</span> Pembekalan Karakter Mandiri & Kesiapan Mental Menghadapi Jenjang Menengah</li>
+                  </ul>
+                </div>
+                <div style="display:flex; gap:1rem; align-items:center;">
+                  <span class="badge badge-demo">288 Siswa Aktif (Data Demo)</span>
+                  <a href="guru.html" class="btn btn-outline btn-sm">Lihat Wali Kelas</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-top">
+      <div class="footer-brand">
+        <a href="index.html" class="brand" style="margin-bottom:1rem;">
+          <div class="brand-emblem"><img src="./favicon.svg" alt="Logo SMPN 6 Jember" width="40" height="40" /></div>
+          <div class="brand-text">
+            <span class="brand-title">SMPN 6 JEMBER</span>
+            <span class="brand-subtitle">PROFIL SEKOLAH UNGGULAN</span>
+          </div>
+        </a>
+        <p class="footer-desc">Berkarakter, berprestasi, berwawasan lingkungan, dan adaptif terhadap masa depan.</p>
+        <div class="footer-demo-callout">
+          <strong>Pemberitahuan Demo:</strong> Informasi kurikulum dan rombel merupakan data simulasi contoh.
+        </div>
+      </div>
+      <div>
+        <h4 class="footer-title">Navigasi Utama</h4>
+        <ul class="footer-links">
+          <li><a href="index.html" class="footer-link">Beranda</a></li>
+          <li><a href="profil.html" class="footer-link">Profil Sekolah</a></li>
+          <li><a href="kelas.html" class="footer-link">Program & Kelas</a></li>
+          <li><a href="guru.html" class="footer-link">Direktori Guru</a></li>
+          <li><a href="fasilitas.html" class="footer-link">Fasilitas Sekolah</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="footer-title">Kesiswaan</h4>
+        <ul class="footer-links">
+          <li><a href="prestasi.html" class="footer-link">Prestasi Siswa</a></li>
+          <li><a href="ekstrakurikuler.html" class="footer-link">Ekstrakurikuler</a></li>
+          <li><a href="agenda.html" class="footer-link">Agenda Kegiatan</a></li>
+          <li><a href="ppdb.html" class="footer-link">Informasi PPDB</a></li>
+          <li><a href="kontak.html" class="footer-link">Kontak & Lokasi</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="footer-title">Kontak Demo</h4>
+        <div class="footer-contact-list">
+          <div class="footer-contact-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            <span>Jl. Pendidikan No. 123, Jember Selatan, Jember 68199</span>
+          </div>
+          <div class="footer-contact-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            <span>info@smpn6jember.example</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <div>© <span class="dynamic-year">2026</span> SMP Negeri 6 Jember. Hak Cipta Dilindungi.</div>
+      <div class="footer-bottom-links">
+        <a href="profil.html">Profil</a>
+        <a href="ppdb.html">PPDB</a>
+        <a href="kontak.html">Kontak</a>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" aria-label="Kembali ke atas">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"></polyline></svg>
+  </button>
+
+  <script type="module">
+    import './assets/js/main.js';
+
+    // Filter Kelas
+    const filterBtns = document.querySelectorAll('#class-filters .filter-btn');
+    const classRows = document.querySelectorAll('.class-row-item');
+
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+
+        const filter = btn.getAttribute('data-filter');
+        classRows.forEach(row => {
+          if (filter === 'all' || row.getAttribute('data-class') === filter) {
+            row.style.display = 'block';
+          } else {
+            row.style.display = 'none';
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>

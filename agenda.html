@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agenda & Kalender Akademik — SMP Negeri 6 Jember</title>
+  <meta name="description" content="Kalender kegiatan belajar, ujian sekolah, peringatan hari besar, dan pertemuan wali murid SMP Negeri 6 Jember." />
+  
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Agenda Kegiatan SMP Negeri 6 Jember" />
+  <meta property="og:description" content="Jadwal lengkap ujian, upacara peringatan nasional, dan perayaan hari besar sekolah." />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&w=1200&q=80" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="./assets/css/variables.css" />
+  <link rel="stylesheet" href="./assets/css/reset.css" />
+  <link rel="stylesheet" href="./assets/css/layout.css" />
+  <link rel="stylesheet" href="./assets/css/components.css" />
+  <link rel="stylesheet" href="./assets/css/pages.css" />
+  <link rel="stylesheet" href="./assets/css/responsive.css" />
+</head>
+<body>
+  <a href="#main-content" class="skip-to-content">Lewati ke konten utama</a>
+
+  <div class="demo-banner">
+    <span class="badge-pill">DATA DEMO</span>
+    <span>Jadwal agenda kegiatan dan kalender akademik berikut merupakan jadwal simulasi contoh.</span>
+  </div>
+
+  <aside class="topbar">
+    <div class="container topbar-inner">
+      <div class="topbar-contacts">
+        <span class="topbar-item">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+          Jl. Pendidikan No. 123, Jember Selatan, Jawa Timur
+        </span>
+        <a href="mailto:info@smpn6jember.example" class="topbar-item">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+          info@smpn6jember.example
+        </a>
+      </div>
+      <div class="topbar-socials">
+        <a href="tel:0331555123" class="topbar-item">(0331) 555-123</a>
+      </div>
+    </div>
+  </aside>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">
+        <div class="brand-emblem"><img src="./favicon.svg" alt="Logo SMPN 6 Jember" width="44" height="44" /></div>
+        <div class="brand-text">
+          <span class="brand-title">SMPN 6 JEMBER</span>
+          <span class="brand-subtitle">CERDAS • BERBUDI • BERPRESTASI</span>
+        </div>
+      </a>
+
+      <nav class="main-nav" aria-label="Navigasi Utama">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="index.html" class="nav-link">Beranda</a></li>
+          <li class="nav-item"><a href="profil.html" class="nav-link">Profil Sekolah</a></li>
+          <li class="nav-item has-dropdown">
+            <a href="kelas.html" class="nav-link">
+              Akademik
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </a>
+            <div class="dropdown-menu">
+              <a href="kelas.html" class="dropdown-link">Program & Kelas</a>
+              <a href="guru.html" class="dropdown-link">Direktori Guru</a>
+              <a href="fasilitas.html" class="dropdown-link">Fasilitas Sekolah</a>
+            </div>
+          </li>
+          <li class="nav-item has-dropdown">
+            <a href="prestasi.html" class="nav-link active">
+              Kesiswaan
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </a>
+            <div class="dropdown-menu">
+              <a href="prestasi.html" class="dropdown-link">Prestasi Siswa</a>
+              <a href="ekstrakurikuler.html" class="dropdown-link">Ekstrakurikuler</a>
+              <a href="agenda.html" class="dropdown-link active">Agenda Kegiatan</a>
+            </div>
+          </li>
+          <li class="nav-item"><a href="galeri.html" class="nav-link">Galeri</a></li>
+          <li class="nav-item"><a href="berita.html" class="nav-link">Berita</a></li>
+          <li class="nav-item"><a href="kontak.html" class="nav-link">Kontak</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="ppdb.html" class="btn btn-gold btn-sm">Info PPDB</a>
+        <button class="mobile-menu-toggle" aria-label="Buka Menu" aria-expanded="false">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-drawer-overlay"></div>
+  <div class="mobile-drawer" role="dialog" aria-modal="true">
+    <div class="drawer-header">
+      <div class="brand">
+        <img src="./favicon.svg" alt="Logo" width="34" height="34" />
+        <span class="brand-title" style="font-size:1rem;">SMPN 6 Jember</span>
+      </div>
+      <button class="drawer-close" aria-label="Tutup Menu">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+    </div>
+    <div class="drawer-nav">
+      <ul class="drawer-list">
+        <li><a href="index.html" class="drawer-link">Beranda</a></li>
+        <li><a href="profil.html" class="drawer-link">Profil Sekolah</a></li>
+        <li><a href="kelas.html" class="drawer-link">Program & Kelas</a></li>
+        <li><a href="guru.html" class="drawer-link">Direktori Guru</a></li>
+        <li><a href="fasilitas.html" class="drawer-link">Fasilitas Sekolah</a></li>
+        <li><a href="prestasi.html" class="drawer-link">Prestasi Siswa</a></li>
+        <li><a href="ekstrakurikuler.html" class="drawer-link">Ekstrakurikuler</a></li>
+        <li><a href="agenda.html" class="drawer-link active">Agenda Kegiatan</a></li>
+        <li><a href="galeri.html" class="drawer-link">Galeri Foto</a></li>
+        <li><a href="berita.html" class="drawer-link">Berita & Artikel</a></li>
+        <li><a href="kontak.html" class="drawer-link">Kontak & Lokasi</a></li>
+      </ul>
+    </div>
+    <div class="drawer-footer">
+      <a href="ppdb.html" class="btn btn-primary" style="width:100%;">Pendaftaran PPDB</a>
+    </div>
+  </div>
+
+  <main id="main-content">
+    <section class="page-header">
+      <div class="container">
+        <nav class="breadcrumb" aria-label="Jejak Navigasi">
+          <a href="index.html">Beranda</a>
+          <span class="breadcrumb-separator">/</span>
+          <span class="breadcrumb-separator">Kesiswaan</span>
+          <span class="breadcrumb-separator">/</span>
+          <span class="breadcrumb-current">Agenda & Kalender</span>
+        </nav>
+        <h1 class="page-header-title">Agenda & Kalender Akademik</h1>
+        <p class="page-header-desc">
+          Pantau jadwal pelaksanaan ujian, peringatan hari besar keagamaan & nasional, pameran karya siswa, serta pertemuan wali murid.
+        </p>
+      </div>
+    </section>
+
+    <section class="section section-white">
+      <div class="container">
+        <!-- Interactive Monthly Calendar Widget -->
+        <div class="calendar-wrapper" style="margin-bottom:3.5rem;">
+          <div class="calendar-header">
+            <button id="cal-prev" class="calendar-nav-btn" aria-label="Bulan Sebelumnya">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"></polyline></svg>
+            </button>
+            <div id="cal-title" class="calendar-month-title">Oktober 2026</div>
+            <button id="cal-next" class="calendar-nav-btn" aria-label="Bulan Berikutnya">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            </button>
+          </div>
+
+          <div class="calendar-grid-header">
+            <div>Minggu</div>
+            <div>Senin</div>
+            <div>Selasa</div>
+            <div>Rabu</div>
+            <div>Kamis</div>
+            <div>Jumat</div>
+            <div>Sabtu</div>
+          </div>
+
+          <div id="calendar-grid-body" class="calendar-grid-body">
+            <!-- Populated dynamically by calendar.js with leap year accuracy -->
+          </div>
+        </div>
+
+        <!-- Filter Agenda Kategori -->
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:2rem; flex-wrap:wrap; gap:1rem;">
+          <h2 style="font-size:1.75rem; font-weight:800; color:var(--color-navy); margin:0;">Daftar Rincian Agenda</h2>
+          <div class="filter-nav" id="event-filters" style="margin-bottom:0;">
+            <button class="filter-btn active" data-filter="all">Semua Agenda</button>
+            <button class="filter-btn" data-filter="akademik">Ujian & Asesmen</button>
+            <button class="filter-btn" data-filter="kesiswaan">Peringatan Hari Besar</button>
+            <button class="filter-btn" data-filter="sekolah">Internal Sekolah</button>
+            <button class="filter-btn" data-filter="sosial">Sosial & Keagamaan</button>
+          </div>
+        </div>
+
+        <!-- Event List -->
+        <div id="event-list-container" class="event-list">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-top">
+      <div class="footer-brand">
+        <a href="index.html" class="brand" style="margin-bottom:1rem;">
+          <div class="brand-emblem"><img src="./favicon.svg" alt="Logo SMPN 6 Jember" width="40" height="40" /></div>
+          <div class="brand-text">
+            <span class="brand-title">SMPN 6 JEMBER</span>
+            <span class="brand-subtitle">PROFIL SEKOLAH UNGGULAN</span>
+          </div>
+        </a>
+        <p class="footer-desc">Kalender akademik resmi terpadu.</p>
+      </div>
+      <div>
+        <h4 class="footer-title">Navigasi Utama</h4>
+        <ul class="footer-links">
+          <li><a href="index.html" class="footer-link">Beranda</a></li>
+          <li><a href="profil.html" class="footer-link">Profil Sekolah</a></li>
+          <li><a href="agenda.html" class="footer-link">Agenda & Kalender</a></li>
+          <li><a href="ppdb.html" class="footer-link">PPDB</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="footer-title">Kesiswaan</h4>
+        <ul class="footer-links">
+          <li><a href="prestasi.html" class="footer-link">Prestasi Siswa</a></li>
+          <li><a href="ekstrakurikuler.html" class="footer-link">Ekstrakurikuler</a></li>
+          <li><a href="galeri.html" class="footer-link">Galeri Foto</a></li>
+          <li><a href="kontak.html" class="footer-link">Kontak & Lokasi</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="footer-title">Kontak Demo</h4>
+        <div class="footer-contact-list">
+          <div class="footer-contact-item">
+            <span>info@smpn6jember.example • (0331) 555-123</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <div>© <span class="dynamic-year">2026</span> SMP Negeri 6 Jember. Hak Cipta Dilindungi.</div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" aria-label="Kembali ke atas">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"></polyline></svg>
+  </button>
+
+  <script type="module">
+    import { events } from './assets/js/data.js';
+    import { SchoolCalendar } from './assets/js/calendar.js';
+    import './assets/js/main.js';
+
+    const gridContainer = document.getElementById('calendar-grid-body');
+    const titleContainer = document.getElementById('cal-title');
+    const prevBtn = document.getElementById('cal-prev');
+    const nextBtn = document.getElementById('cal-next');
+    const eventContainer = document.getElementById('event-list-container');
+    const filterBtns = document.querySelectorAll('#event-filters .filter-btn');
+
+    function renderEvents(list) {
+      if (list.length === 0) {
+        eventContainer.innerHTML = `
+          <div class="empty-state">
+            <h3 class="empty-state-title">Tidak Ada Agenda</h3>
+            <p class="empty-state-desc">Belum ada agenda kegiatan yang terjadwal untuk filter atau tanggal yang dipilih.</p>
+          </div>
+        `;
+        return;
+      }
+
+      eventContainer.innerHTML = list.map(ev => `
+        <div class="event-card">
+          <div class="event-date-box">
+            <div class="event-day">${ev.day}</div>
+            <div class="event-month">${ev.month}</div>
+          </div>
+          <div class="event-details">
+            <div class="event-time-loc">
+              <span>${ev.time}</span>
+              <span>•</span>
+              <span>${ev.location}</span>
+            </div>
+            <h3 class="event-title">${ev.title}</h3>
+            <p class="event-desc">${ev.desc}</p>
+          </div>
+          <div>
+            <span class="badge badge-demo">Simulasi</span>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    renderEvents(events);
+
+    // Initialize Interactive Calendar
+    const calendar = new SchoolCalendar({
+      events: events,
+      gridContainer,
+      titleContainer,
+      prevBtn,
+      nextBtn,
+      onSelectDate: (dateStr, dayEvents) => {
+        if (dayEvents && dayEvents.length > 0) {
+          renderEvents(dayEvents);
+        } else {
+          renderEvents([]);
+        }
+      }
+    });
+
+    // Category Filter Buttons
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+
+        const cat = btn.getAttribute('data-filter');
+        if (cat === 'all') {
+          renderEvents(events);
+        } else {
+          renderEvents(events.filter(e => e.category === cat));
+        }
+      });
+    });
+  </script>
+</body>
+</html>

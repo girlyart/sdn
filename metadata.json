@@ -1,0 +1,6 @@
+{
+  "name": "SMP Negeri 6 Jember - Website Profil Sekolah Modern",
+  "description": "Website profil resmi SMP Negeri 6 Jember yang modern, prestisius, dan informatif. Memuat profil sekolah, direktori guru, fasilitas, prestasi, agenda, galeri, berita, dan informasi PPDB.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
