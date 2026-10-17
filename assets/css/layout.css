@@ -21,29 +21,9 @@
   padding-right: var(--container-padding);
 }
 
-/* Demo Notice Banner */
+/* Demo Notice Banner (Hidden) */
 .demo-banner {
-  background: linear-gradient(90deg, #102A43 0%, #172554 100%);
-  color: #FEF3C7;
-  padding: 0.5rem 1rem;
-  font-size: var(--text-xs);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.75rem;
-  border-bottom: 1px solid rgba(214, 168, 79, 0.3);
-  text-align: center;
-}
-
-.demo-banner .badge-pill {
-  background: var(--color-gold);
-  color: var(--color-navy);
-  font-weight: 800;
-  padding: 0.15rem 0.5rem;
-  border-radius: var(--radius-full);
-  text-transform: uppercase;
-  font-size: 0.6875rem;
-  letter-spacing: 0.5px;
+  display: none !important;
 }
 
 /* Topbar */
