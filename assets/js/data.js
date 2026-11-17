@@ -53,7 +53,7 @@ export const schoolProfile = {
     name: "Drs. Budi Santoso, M.Pd.",
     nip: "19680512 199412 1 002 (Demo)",
     role: "Kepala SMP Negeri 6 Jember",
-    photo: "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=800&q=80",
+    photo: "./images/kepala-sekolah-budi-santoso.jpg",
     quote: "Pendidikan sejati bukan sekadar mengisi wadah dengan ilmu pengetahuan, melainkan menyalakan api keingintahuan, budi pekerti luhur, dan keberanian untuk terus bertumbuh.",
     fullSpeech: `Assalamu’alaikum Warahmatullahi Wabarakatuh, Salam Sejahtera, Om Swastiastu, Namo Buddhaya, Salam Kebajikan.
 
@@ -67,7 +67,7 @@ Terima kasih atas kepercayaan dan kolaborasi erat seluruh keluarga besar sekolah
   },
 
   orgStructure: [
-    { role: "Kepala Sekolah", name: "Drs. Budi Santoso, M.Pd.", photo: "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=400&q=80" },
+    { role: "Kepala Sekolah", name: "Drs. Budi Santoso, M.Pd.", photo: "./images/kepala-sekolah-budi-santoso.jpg" },
     { role: "Ketua Komite Sekolah", name: "H. Bambang Wahyudi, S.E.", photo: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=400&q=80" },
     { role: "Wakasek Kurikulum", name: "Siti Rahmawati, M.Pd.", photo: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=400&q=80" },
     { role: "Wakasek Kesiswaan", name: "Agus Prasetyo, S.Pd.", photo: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80" },
@@ -88,7 +88,7 @@ export const teachers = [
     category: "pimpinan",
     education: "S2 Manajemen Pendidikan - Universitas Jember",
     experience: "29 Tahun Mengabdi",
-    photo: "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=600&q=80",
+    photo: "./images/kepala-sekolah-budi-santoso.jpg",
     bio: "Berpengalaman memimpin transformasi sekolah digital, penggerak kepemimpinan berwawasan adiwiyata, dan pembimbing olimpiade sains.",
     quote: "Pendidikan bermutu bertumpu pada keteladanan yang konsisten."
   },
