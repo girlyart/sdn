@@ -145,7 +145,7 @@ export class LightboxGallery {
 
     img.style.opacity = '0';
     img.src = item.photo || item.src;
-    img.alt = item.title || item.alt || 'Foto Galeri SMPN 6 Jember';
+    img.alt = item.title || item.alt || 'Foto Galeri SMP Negeri Jember';
 
     img.onload = () => {
       img.style.opacity = '1';

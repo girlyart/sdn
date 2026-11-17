@@ -1,5 +1,5 @@
 /**
- * Data Terpusat Website SMP Negeri 6 Jember
+ * Data Terpusat Website SMP Negeri Jember
  * Semua entitas menggunakan penanda data simulasi demo
  */
 
@@ -52,14 +52,14 @@ export const schoolProfile = {
   principalSpeech: {
     name: "Drs. Budi Santoso, M.Pd.",
     nip: "19680512 199412 1 002 (Demo)",
-    role: "Kepala SMP Negeri 6 Jember",
+    role: "Kepala SMP Negeri Jember",
     photo: "./images/kepala-sekolah-budi-santoso.jpg",
     quote: "Pendidikan sejati bukan sekadar mengisi wadah dengan ilmu pengetahuan, melainkan menyalakan api keingintahuan, budi pekerti luhur, dan keberanian untuk terus bertumbuh.",
     fullSpeech: `Assalamu’alaikum Warahmatullahi Wabarakatuh, Salam Sejahtera, Om Swastiastu, Namo Buddhaya, Salam Kebajikan.
 
-Puji syukur senantiasa kita panjatkan ke hadirat Tuhan Yang Maha Kuasa. Selamat datang di portal resmi SMP Negeri 6 Jember. Website ini dirancang sebagai gerbang informasi, transparansi, dan jendela interaksi bagi seluruh peserta didik, orang tua/wali, alumni, serta masyarakat luas.
+Puji syukur senantiasa kita panjatkan ke hadirat Tuhan Yang Maha Kuasa. Selamat datang di portal resmi SMP Negeri Jember. Website ini dirancang sebagai gerbang informasi, transparansi, dan jendela interaksi bagi seluruh peserta didik, orang tua/wali, alumni, serta masyarakat luas.
 
-Di era transformasi digital yang melaju begitu pesat, kami meyakini bahwa institusi pendidikan harus mampu mengintegrasikan kecakapan teknologi mutakhir dengan penguatan fondasi karakter kebangsaan. Di SMP Negeri 6 Jember, kami mendampingi putra-putri kita tidak hanya untuk meraih prestasi akademik tertinggi, namun juga memiliki kepekaan sosial, kecintaan pada lingkungan hidup, serta kemandirian berpikir kritis.
+Di era transformasi digital yang melaju begitu pesat, kami meyakini bahwa institusi pendidikan harus mampu mengintegrasikan kecakapan teknologi mutakhir dengan penguatan fondasi karakter kebangsaan. Di SMP Negeri Jember, kami mendampingi putra-putri kita tidak hanya untuk meraih prestasi akademik tertinggi, namun juga memiliki kepekaan sosial, kecintaan pada lingkungan hidup, serta kemandirian berpikir kritis.
 
 Melalui Kurikulum Merdeka, bimbingan para pendidik berdedikasi tinggi, sarana prasarana yang terus kami lengkapi, serta iklim sekolah yang aman dan membahagiakan, kami berikhtiar mengantarkan setiap tunas muda menuju masa depan gemilang.
 
@@ -422,7 +422,7 @@ export const galleryItems = [
     categoryLabel: "Prestasi",
     date: "28 Oktober 2025",
     photo: "https://images.unsplash.com/photo-1567427017947-545c5f8d16ad?auto=format&fit=crop&w=1200&q=80",
-    desc: "Penyerahan sertifikat dan piala penghargaan oleh Kepala Sekolah atas prestasi tim IPA SMPN 6 Jember di tingkat Jawa Timur."
+    desc: "Penyerahan sertifikat dan piala penghargaan oleh Kepala Sekolah atas prestasi tim IPA SMP Negeri Jember di tingkat Jawa Timur."
   },
   {
     id: "g6",
@@ -493,16 +493,16 @@ export const newsArticles = [
   {
     id: "n1",
     slug: "smpn-6-jember-borong-juara-olimpiade-sains-2026",
-    title: "Membanggakan! Siswa SMPN 6 Jember Raih 3 Medali di Olimpiade Sains Tingkat Jawa Timur 2026",
+    title: "Membanggakan! Siswa SMP Negeri Jember Raih 3 Medali di Olimpiade Sains Tingkat Jawa Timur 2026",
     category: "Prestasi",
     date: "14 Februari 2026",
-    author: "Tim Humas SMPN 6 Jember",
+    author: "Tim Humas SMP Negeri Jember",
     readTime: "4 Menit Baca",
     image: "https://images.unsplash.com/photo-1567427017947-545c5f8d16ad?auto=format&fit=crop&w=1200&q=80",
-    excerpt: "Dua medali emas pada bidang IPA Terpadu dan satu perak matematika berhasil dibawa pulang oleh kontingen kebanggaan SMPN 6 Jember dalam ajang tahunan bergengsi.",
+    excerpt: "Dua medali emas pada bidang IPA Terpadu dan satu perak matematika berhasil dibawa pulang oleh kontingen kebanggaan SMP Negeri Jember dalam ajang tahunan bergengsi.",
     tags: ["Olimpiade", "Sains", "Juara", "Jawa Timur"],
     content: `
-      <p>Prestasi gemilang kembali ditorehkan oleh duta-duta muda SMP Negeri 6 Jember. Dalam perhelatan Olimpiade Sains Pelajar Jawa Timur 2026 yang berlangsung di Surabaya pada akhir pekan lalu, delegasi sekolah berhasil memborong tiga medali bergengsi, membuktikan ketajaman nalar akademik dan dedikasi bimbingan guru yang konsisten.</p>
+      <p>Prestasi gemilang kembali ditorehkan oleh duta-duta muda SMP Negeri Jember. Dalam perhelatan Olimpiade Sains Pelajar Jawa Timur 2026 yang berlangsung di Surabaya pada akhir pekan lalu, delegasi sekolah berhasil memborong tiga medali bergengsi, membuktikan ketajaman nalar akademik dan dedikasi bimbingan guru yang konsisten.</p>
       
       <h3>Perjalanan Panjang Menuju Podium Juara</h3>
       <p>Kedua peraih medali emas, Ananda Rizky Pratama (Kelas IX-A) dan Amanda Putri Salsabila (Kelas VIII-B), mengaku telah menjalani persiapan intensif selama lebih dari empat bulan di bawah bimbingan langsung Dr. Dewi Anggraeni dan tim MGMP IPA sekolah. Latihan mencakup pendalaman teori analitis, telaah soal berstandar internasional, serta eksperimen laboratorium terapan.</p>
@@ -512,7 +512,7 @@ export const newsArticles = [
       </blockquote>
 
       <h3>Komitmen Sekolah Mengembangkan Talenta Akademik</h3>
-      <p>Kepala SMP Negeri 6 Jember, Drs. Budi Santoso, M.Pd., menyampaikan apresiasi mendalam atas pencapaian ini. Pihak sekolah senantiasa berkomitmen memberikan ruang pembinaan khusus melalui program Klinik Olimpiade Sains dan penyediaan literatur riset terkini di perpustakaan sekolah.</p>
+      <p>Kepala SMP Negeri Jember, Drs. Budi Santoso, M.Pd., menyampaikan apresiasi mendalam atas pencapaian ini. Pihak sekolah senantiasa berkomitmen memberikan ruang pembinaan khusus melalui program Klinik Olimpiade Sains dan penyediaan literatur riset terkini di perpustakaan sekolah.</p>
       
       <p>Diharapkan torehan prestasi ini mampu menjadi pemantik semangat bagi seluruh peserta didik lainnya untuk terus berani bermimpi, tekun berkarya, dan menjunjung tinggi nama baik almamater di kancah nasional.</p>
     `
@@ -529,7 +529,7 @@ export const newsArticles = [
     excerpt: "Membekali peserta didik dengan kecakapan komputasional, logika algoritma, dan perakitan robot sensorik cerdas untuk memecahkan persoalan sehari-hari.",
     tags: ["Coding", "Robotika", "Informatika", "Kurikulum Merdeka"],
     content: `
-      <p>Dalam rangka memperkuat literasi teknologi generasi Z, SMP Negeri 6 Jember menggelar workshop intensif "Coding & Robotics for Future Innovators" yang diikuti oleh 60 perwakilan siswa dari kelas VII dan VIII.</p>
+      <p>Dalam rangka memperkuat literasi teknologi generasi Z, SMP Negeri Jember menggelar workshop intensif "Coding & Robotics for Future Innovators" yang diikuti oleh 60 perwakilan siswa dari kelas VII dan VIII.</p>
       
       <p>Workshop dipandu langsung oleh Ahmad Fauzi, S.Kom., M.T. bersama tim pakar teknologi muda dari Universitas Jember. Para peserta diajak memprogram mikrokontroler Arduino untuk mendeteksi kelembapan tanah tanaman dan menggerakkan mobil pintar otomatis.</p>
       
@@ -549,7 +549,7 @@ export const newsArticles = [
     excerpt: "Sebanyak 80 kilogram selada romaine dan pakcoy organik hasil budidaya mandiri siswa dipanen di Green House sekolah.",
     tags: ["Adiwiyata", "Hidroponik", "Organik", "Green School"],
     content: `
-      <p>Suasana asri dan penuh kebanggaan menyelimuti area Green House SMP Negeri 6 Jember pada Jumat pagi. Puluhan kader lingkungan cilik bersama dewan guru memanen sayuran hijau segar yang telah dirawat selama 35 hari menggunakan sistem nutrisi hidroponik bersirkulasi air tertutup.</p>
+      <p>Suasana asri dan penuh kebanggaan menyelimuti area Green House SMP Negeri Jember pada Jumat pagi. Puluhan kader lingkungan cilik bersama dewan guru memanen sayuran hijau segar yang telah dirawat selama 35 hari menggunakan sistem nutrisi hidroponik bersirkulasi air tertutup.</p>
       
       <p>Program ini adalah bagian dari implementasi P5 (Projek Penguatan Profil Pelajar Pancasila) dengan tema Gaya Hidup Berkelanjutan. Seluruh hasil panen didistribusikan kepada kantin sekolah dan wali murid dengan harga terjangkau, di mana dana yang terkumpul dialokasikan untuk regenerasi bibit berikutnya.</p>
     `
@@ -566,7 +566,7 @@ export const newsArticles = [
     excerpt: "Informasi lengkap mengenai tahapan, persyaratan dokumen, jalur zonasi, afirmasi, prestasi, dan simulasi jadwal pendaftaran calon siswa baru.",
     tags: ["PPDB", "Pendaftaran", "Zonasi", "Prestasi"],
     content: `
-      <p>Bagi para calon siswa dan orang tua/wali murid lulusan SD/MI di wilayah Jember dan sekitarnya, pihak panitia PPDB SMP Negeri 6 Jember merilis pedoman umum pelaksanaan penerimaan siswa baru tahun ajaran 2026/2027.</p>
+      <p>Bagi para calon siswa dan orang tua/wali murid lulusan SD/MI di wilayah Jember dan sekitarnya, pihak panitia PPDB SMP Negeri Jember merilis pedoman umum pelaksanaan penerimaan siswa baru tahun ajaran 2026/2027.</p>
       
       <h3>Prinsip Akuntabel dan Bebas Pungutan Liar</h3>
       <p>Proses seleksi dilaksanakan secara objektif, transparan, dan akuntabel sesuai regulasi Dinas Pendidikan Kabupaten Jember. Seluruh pendaftaran di sekolah negeri tidak dipungut biaya apapun (gratis).</p>
@@ -580,13 +580,13 @@ export const newsArticles = [
     title: "Meriah! Panggung Seni & Budaya Nusantara Hidupkan Kreativitas Ratusan Pelajar",
     category: "Kesiswaan",
     date: "18 Desember 2025",
-    author: "OSIS SMPN 6 Jember",
+    author: "OSIS SMP Negeri Jember",
     readTime: "4 Menit Baca",
     image: "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?auto=format&fit=crop&w=1200&q=80",
     excerpt: "Perpaduan tari tradisional, karawitan gamelan, dan teater musikal memukau para penonton dalam malam apresiasi seni tahunan di Aula Graha Sabha.",
     tags: ["Seni", "Budaya", "Tari", "Kesiswaan"],
     content: `
-      <p>Panggung Aula Graha Sabha SMP Negeri 6 Jember berguncang oleh gemuruh tepuk tangan penonton saat pementasan kolosal Tari Gandrung Jember dibawakan dengan apik oleh 45 penari siswa binaan Bapak Bambang Triyono, S.Sn.</p>
+      <p>Panggung Aula Graha Sabha SMP Negeri Jember berguncang oleh gemuruh tepuk tangan penonton saat pementasan kolosal Tari Gandrung Jember dibawakan dengan apik oleh 45 penari siswa binaan Bapak Bambang Triyono, S.Sn.</p>
       <p>Kegiatan ini menjadi wadah unjuk kebolehan ekstrakurikuler seni musik, tari, karawitan, dan teater sekolah guna melestarikan warisan budaya luhur bangsa di tengah serbuan budaya asing.</p>
     `
   },
@@ -602,7 +602,7 @@ export const newsArticles = [
     excerpt: "Kebiasaan membaca buku non-pelajaran di awal jam pertama berhasil meningkatkan minat membaca siswa hingga 74% dalam satu semester.",
     tags: ["Literasi", "Buku", "Perpustakaan", "Pendidikan"],
     content: `
-      <p>Setiap pagi tepat pukul 06.45 WIB sebelum bel masuk pertama berbunyi, seluruh lorong dan ruang kelas di SMP Negeri 6 Jember mendadak hening dan damai. Peserta didik asyik larut dalam lembar-lembar buku fiksi, sejarah, sains populer, atau biografi tokoh dunia pilihan mereka.</p>
+      <p>Setiap pagi tepat pukul 06.45 WIB sebelum bel masuk pertama berbunyi, seluruh lorong dan ruang kelas di SMP Negeri Jember mendadak hening dan damai. Peserta didik asyik larut dalam lembar-lembar buku fiksi, sejarah, sains populer, atau biografi tokoh dunia pilihan mereka.</p>
       <p>Gerakan ini terbukti melatih konsentrasi, memperkaya kosakata, dan membentuk daya analisis siswa saat menerima materi pembelajaran di kelas berikutnya.</p>
     `
   },
@@ -660,7 +660,7 @@ export const achievements = [
     field: "Matematika",
     level: "Provinsi",
     year: "2025",
-    student: "Tim Matematika SMPN 6 (Faris, Nabila, Dika)",
+    student: "Tim Matematika SMP Negeri Jember (Faris, Nabila, Dika)",
     coach: "Siti Rahmawati, M.Pd.",
     photo: "https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?auto=format&fit=crop&w=800&q=80",
     desc: "Mencatatkan skor sempurna 500 pada babak final cerdas cermat kalkulus dan aljabar tingkat SMP di Surabaya."
@@ -684,7 +684,7 @@ export const achievements = [
     field: "Olahraga Bola Voli",
     level: "Kabupaten",
     year: "2025",
-    student: "Tim Bola Voli Putri SMPN 6 Jember",
+    student: "Tim Bola Voli Putri SMP Negeri Jember",
     coach: "Agus Prasetyo, S.Pd.",
     photo: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=800&q=80",
     desc: "Tampil tak terkalahkan sepanjang babak penyisihan hingga partai final turnamen Dispora Jember."
@@ -696,7 +696,7 @@ export const achievements = [
     field: "Seni Tari & Karawitan",
     level: "Kabupaten",
     year: "2025",
-    student: "Sanggar Seni Gandrung Cendekia SMPN 6",
+    student: "Sanggar Seni Gandrung Cendekia SMP Negeri Jember",
     coach: "Bambang Triyono, S.Sn.",
     photo: "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?auto=format&fit=crop&w=800&q=80",
     desc: "Menampilkan kreasi tari kolosal yang memadukan keindahan gerak tradisi dengan tema pelestarian hutan."
@@ -720,7 +720,7 @@ export const achievements = [
     field: "Kelestarian Lingkungan",
     level: "Kabupaten",
     year: "2024",
-    student: "Keluarga Besar SMP Negeri 6 Jember",
+    student: "Keluarga Besar SMP Negeri Jember",
     coach: "Drs. Budi Santoso, M.Pd.",
     photo: "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=800&q=80",
     desc: "Dianugerahi trofi atas keberhasilan pengurangan 60% timbulan sampah plastik sekali pakai di lingkungan sekolah."
@@ -951,7 +951,7 @@ export const events = [
     category: "sekolah",
     categoryLabel: "Kalender Pendidikan",
     time: "06.45 – 13.00 WIB",
-    location: "SMP Negeri 6 Jember",
+    location: "SMP Negeri Jember",
     desc: "Apel pembukaan semester baru, peneguhan kembali target prestasi, dan pengenalan program pembelajaran genap."
   },
   {
@@ -971,7 +971,7 @@ export const events = [
 
 export const faqs = [
   {
-    q: "Apakah SMP Negeri 6 Jember telah menerapkan Kurikulum Merdeka secara penuh?",
+    q: "Apakah SMP Negeri Jember telah menerapkan Kurikulum Merdeka secara penuh?",
     a: "Ya, sekolah telah mengimplementasikan Kurikulum Merdeka secara mandiri berbagi untuk jenjang kelas VII, VIII, dan IX dengan mengedepankan pembelajaran berdiferensiasi dan Projek Penguatan Profil Pelajar Pancasila (P5)."
   },
   {
@@ -979,7 +979,7 @@ export const faqs = [
     a: "Secara demo simulasi, sekolah menerima 8 rombongan belajar (sekitar 288 peserta didik) per tahun dengan pembagian kuota: Zonasi (minimal 50%), Afirmasi (15%), Perpindahan Tugas Orang Tua (5%), dan Jalur Prestasi Akademik/Non-Akademik (sisanya)."
   },
   {
-    q: "Apakah ada biaya pendaftaran atau SPP bulanan di SMP Negeri 6 Jember?",
+    q: "Apakah ada biaya pendaftaran atau SPP bulanan di SMP Negeri Jember?",
     a: "Sebagai sekolah negeri, seluruh proses seleksi pendaftaran dan operasional reguler dibiayai oleh dana Bantuan Operasional Sekolah (BOS) sehingga tidak ada pungutan SPP bulanan."
   },
   {

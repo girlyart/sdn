@@ -1,4 +1,4 @@
-# Website Profil Sekolah SMP Negeri 6 Jember (Modern & Responsif)
+# Website Profil Sekolah SMP Negeri Jember (Modern & Responsif)
 
 Website profil institusi pendidikan tingkat menengah pertama (SMP) modern, elegan, responsif, dan interaktif yang dibangun menggunakan pendekatan frontend statis murni tanpa ketergantungan backend/database berbayar.
 
@@ -6,13 +6,13 @@ Website profil institusi pendidikan tingkat menengah pertama (SMP) modern, elega
 
 ## 📌 1. Identitas Sekolah (Data Demo)
 
-- **Nama Sekolah:** SMP Negeri 6 Jember
+- **Nama Sekolah:** SMP Negeri Jember
 - **Akreditasi:** A (Unggul)
 - **Kurikulum:** Kurikulum Merdeka Mandiri Berbagi
 - **Slogan:** *Berkarakter, Berprestasi, Siap Menghadapi Masa Depan.*
 - **Visi:** *Terwujudnya peserta didik yang berkarakter, berprestasi, berwawasan lingkungan, dan adaptif terhadap perkembangan teknologi.*
 - **Alamat Demo:** Jl. Pendidikan No. 123, Kelurahan Harapan Jaya, Kecamatan Jember Selatan, Kabupaten Jember, Jawa Timur 68199
-- **Email Demo:** `info@smpn6jember.example`
+- **Email Demo:** `info@smpnjember.example`
 - **Telepon Demo:** `(0331) 555-123`
 - **Catatan Etika:** Seluruh data profil, nama dewan guru, foto pendidik, dan nomor telepon merupakan **DATA SIMULASI DEMO** dan belum diverifikasi secara resmi untuk operasional publik.
 
@@ -41,7 +41,7 @@ Website ini dapat dijalankan dengan dua cara yang sangat mudah:
 ## 📁 3. Struktur Direktori Proyek
 
 ```
-smpn6jember/
+smpnjember/
 ├── index.html            # Halaman Beranda (21 Bagian Lengkap)
 ├── profil.html           # Profil Sekolah, Sejarah Timeline, Visi Misi, Struktur Organisasi
 ├── guru.html             # Direktori Guru dengan Live Search & Filter Mata Pelajaran

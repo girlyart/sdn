@@ -1,12 +1,12 @@
 /**
- * Konfigurasi Global Website SMP Negeri 6 Jember
+ * Konfigurasi Global Website SMP Negeri Jember
  * Data Demo Terpusat untuk Konsistensi Seluruh Halaman
  */
 
 export const CONFIG = {
   school: {
-    name: "SMP Negeri 6 Jember",
-    shortName: "SMPN 6 Jember",
+    name: "SMP Negeri Jember",
+    shortName: "SMP Negeri Jember",
     level: "Sekolah Menengah Pertama (SMP)",
     status: "Negeri (Data Demo)",
     npsn: "20523812 (Demo)",
@@ -28,10 +28,10 @@ export const CONFIG = {
 
   contact: {
     address: "Jl. Pendidikan No. 123, Kelurahan Harapan Jaya, Kecamatan Jember Selatan, Kabupaten Jember, Jawa Timur 68199",
-    email: "info@smpn6jember.example",
+    email: "info@smpnjember.example",
     phone: "(0331) 555-123",
     whatsapp: "+62 812-3456-7890",
-    website: "smpn6jember.example",
+    website: "smpnjember.example",
     operationalHours: "Senin – Jumat: 07.00 – 15.30 WIB (Sabtu & Minggu Libur)",
     demoNotice: "Informasi kontak, nomor telepon, dan alamat ini merupakan data demo simulasi. Mohon verifikasi sebelum digunakan untuk keperluan resmi."
   },
@@ -71,9 +71,9 @@ export const CONFIG = {
   ],
 
   socials: [
-    { name: "Instagram", url: "#", icon: "instagram", handle: "@smpn6jember_demo" },
-    { name: "YouTube", url: "#", icon: "youtube", handle: "SMPN 6 Jember Official" },
-    { name: "Facebook", url: "#", icon: "facebook", handle: "SMP Negeri 6 Jember" },
+    { name: "Instagram", url: "#", icon: "instagram", handle: "@smpnjember_demo" },
+    { name: "YouTube", url: "#", icon: "youtube", handle: "SMP Negeri Jember Official" },
+    { name: "Facebook", url: "#", icon: "facebook", handle: "SMP Negeri Jember" },
     { name: "WhatsApp", url: "#", icon: "message-circle", handle: "Layanan Humas" }
   ],
 

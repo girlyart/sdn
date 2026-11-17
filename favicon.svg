@@ -20,6 +20,6 @@
   <path d="M32 14 C34 17 37 19 35 22 C33 24 31 24 29 22 C27 19 30 17 32 14 Z" fill="url(#goldGrad)"/>
   <!-- Star on Top -->
   <polygon points="32,8 33.5,11.5 37,11.5 34,13.5 35,17 32,15 29,17 30,13.5 27,11.5 30.5,11.5" fill="url(#goldGrad)"/>
-  <!-- Number 6 Emblem Text -->
-  <text x="32" y="49" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="11" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">SMP 6</text>
+  <!-- School Emblem Text -->
+  <text x="32" y="49" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="11" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">SMPN</text>
 </svg>
